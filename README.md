@@ -1,2 +1,20 @@
-# AD-hospital
-Simulated administrator tasks on a hospital's active directory such as user and OU creation, issued and managed group policies, and joined client PCs to the domain.
+<h1>Active Directory: Hospital</h1>
+
+<h2>Objective</h2>
+<p>In this lab, I will be utilizing a Virtual Machine sandbox to simulate the tasks and managements of help desk specialist. I will be using Virtual Box, Active Directory, Windows Server 2022, and Windows 10 for this lab. I will demonstrate basic AD tasks like account management, group policy issuing, and  <p>
+
+<h3>Materials</h3>
+<ul>
+  <li>Virtual Box</li>
+  <li>Active Directory</li>
+  <li>Windows Server 2022</li>
+  <li>Windows 10</li>
+</ul>
+
+<h4>Tasks</h4>
+<ul>
+  <li>User Creation and Troubleshooting</li>
+  <li>Group Policy Management</li>
+  <li>Domain Joining</li>
+  <li>Drive Mapping</li>
+</ul>
