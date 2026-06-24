@@ -13,8 +13,13 @@
 
 <h4>Tasks</h4>
 <ul>
-  <li>User Creation and Troubleshooting</li>
+  <li>User Creation and Account Troubleshooting</li>
   <li>Group Policy Management</li>
   <li>Domain Joining</li>
   <li>Drive Mapping</li>
 </ul>
+
+<h5>User Creation</h5>
+<p>To create a user, you must access the AD Users and Computers tab in the Start menu. This will then pull up the organization's forest. Within this folder,you then locate the proper OU and group and simply right-click New and slect User. </p>
+<img width="955" height="790" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/95e0bd33-f032-4b4a-aafc-9913d02890e1" />
+ 
