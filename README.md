@@ -15,7 +15,6 @@
 <ul>
   <li>User Creation</li>
   <li>Domain Joining</li>
-  <li>Account Troubleshooting</li>
   <li>Group Policy Management</li>
   <li>Drive Mapping</li>
 </ul>
