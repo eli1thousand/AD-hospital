@@ -10,14 +10,19 @@
   <li>Windows 10</li>
 </ul>
 
-<h4>Task</h4>
+<h3>Task</h3>
 <p>The monthly information for the upcoming quarter is here. We will need all managers of the departments to be able to access this folder.</p>
+
+<h3>Procedure</h3>
+
+<h4>Server</h4>
 <p> On Server PC, we are going to access File Explorer. On This PC, we are going to select and add a mapped network. This will be titled Managers. The location for this folder will be \\Piedmont-PC\Managers. </p>
 <img width="468" height="345" alt="Netmap1" src="https://github.com/user-attachments/assets/4fce06e4-cfe2-41ad-a14f-cea9040325a3" />
 <p> We are going to right-click the folder and then go to Properties and then Sharing. We will then check the "Share this folder" box so sharing is possible.</p>
 <img width="475" height="371" alt="Netmap2" src="https://github.com/user-attachments/assets/0e726853-cc2c-44ea-9e7b-1aebf15b1ac5" />
-<p>Now we name this folder. I will stick with the name MANAGERS. Next, we need to grant permissions. Here we will add all of the managers who need access to this folder. Here, I only gave them access to read what is inside the folder. </p>
+<p>Now we name this folder. I will stick with the name MANAGERS. Next, we need to grant permissions. Here we will add all of the managers who need access to this folder. Here, I only gave them access to read what is inside the folder. It is imperative that you remove "Everyone" when adding the proper users. </p>
 <img width="475" height="353" alt="Netmap4" src="https://github.com/user-attachments/assets/1d5e3f9d-28dc-4a7a-a111-1237ee50b0cd" />
+
 
 
 <p>Now, we are going to access Group Policy Management in Windows Administrative Tools. Underneath the domain, we are going add a new Group Policy Object. This will be titled "Mapped Drives". </p> 
@@ -31,3 +36,8 @@
 <p>Once this network map is created, we now go to our GP Management. Under GPO, our Drive Mapped folder should be present. We drag this map into each OU that possesses the users with access to this folder.</p>
 <img width="500" height="345" alt="netmap2 5" src="https://github.com/user-attachments/assets/a38f2b14-1b6d-4869-9168-a721814883e1" />
 
+<h4>Client</h4>
+<p>On the Client PC, we are going to log on as the manager of Finance, Donatello. We are going to access File and Explorer. We can see that the map has now been shared with Donatello's PC.</p> 
+<img width="501" height="345" alt="Screenshot 2026-07-10 195212" src="https://github.com/user-attachments/assets/74c662c1-66b6-4c27-bf98-162ba6f6ff52" />
+
+<p> Now, let's see if a user </p>
