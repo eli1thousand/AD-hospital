@@ -1,4 +1,4 @@
-<h1>Active Directory: Hospital</h1>
+<h1>Active Directory: Domain Joining</h1>
 
 <h2>Objective</h2>
 <p>In this lab, I will be utilizing a Virtual Machine sandbox to simulate the tasks and managements of help desk specialist. I will be using Virtual Box, Active Directory, Windows Server 2022, and Windows 10 for this lab. In this particular lab, i will b e joining a client PC to the domain  <p>
